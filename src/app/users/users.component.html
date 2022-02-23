@@ -1,0 +1,20 @@
+<div class="container ">
+  <div class="d-flex flex-wrap col-12">
+  <div class="card-body">
+<h3 class="fas fa-h3">Fahrenhiet to Celsius</h3>
+
+ <p>
+   Fahrenhiet: <input type="number" [(ngModel)]='fahrenhiet' value="{{celsius | temprature:'F'}}">
+  
+ </p>
+</div>
+<div class="card-body ">
+<h3 class="fas fa-h3">Celsius to Fahrenhiet </h3>
+
+ <p class="">
+  Celsius: <input type="number" [(ngModel)]='celsius' value="{{fahrenhiet | temprature:'C'}}">
+  
+ </p>
+</div>
+</div>
+</div>
